@@ -1,0 +1,115 @@
+/* DEFINITO IL BACKGROUND GENERALE DELLA PAGINA */
+body {
+    background-color: #F6F8F9;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+/* DEFINITO INTESTAZIONE CON COLORE BACKGROUND,GRANDEZZA E ALINEMENTO */
+#head {
+    background-color: white;
+    height: 70px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+/* DEFINITO UNA CLASSE GENERALE PER IMPOSTARE IL TESTO IN TUTTA LA PAGINA */
+.text {
+    font-family: 'M PLUS 1', sans-serif;
+} 
+/* DEFINITA LA GRANDEZZA DEL TITOLO/LOGO DELLA PAGINA */
+.text.logo {
+    font-size: 40px;
+}
+/* DEFINITO LA GRANDEZZA DEL MENU' DI NAVIGAZIONE E DELLA CURVATURA DEGL ANGOLI SUPERIORI */
+.nav {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    margin-top: 50px;
+    padding: 20px 50px 10px ;
+    border-radius: 10px 10px 0px 0px;
+}
+/* DEFINITO IL LAYOUT GENERALE DEI BUTTON */
+.button {
+    border-radius: 5px;
+    padding: 4px 6px;
+    border: 1px solid;
+}
+/* DEFINITO COLORI DEL BUTTON 'ADD TASK' */
+.button.blue {
+    color: white;
+    background-color: #47adf1;
+    border-color: #47adf1;
+}
+/* DEFINITO COLORI DEL BUTTON 'ADD SECTION' */
+.button.grey {
+    color: grey;
+    background-color: white;
+    border-color: grey;
+}
+/* DEFINITO LA GRANDEZZA DEL MENU' DEI TASK E DELLA CURVATURA DEGL ANGOLI SUPERIORI */
+.list {
+    background-color: white;
+    margin: auto;
+    margin-top: 3px;
+    width: 60%;
+    padding: 10px 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+/* DEFINITA LA GRANDEZZA DELLE TRE SEZIONI TASK */
+.tasks {
+    padding: 20px
+}
+/* DEFINITO LE GRANDEZZA DELLE VARIE PARTI SCRITTE */
+.assign {
+    font-size:15px;
+    padding: 0px 10px;
+    line-height: 30px;
+}
+/* DEFINITO LA GRANDEZZA E IL PESO DELLE TRE SEZIONE */
+.prop {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* DEFINITO IL LAYOUT GENERALE DEI TAG */
+.tag{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #fff;
+}
+/* DEFINITO I COLORI DEI TAG */
+.editorial{
+    background-color: #47adf1;
+}
+.q1_goals{
+    background-color: #9c72e4;
+}
+.recruting{
+    background-color: #64c0a9;
+}
+.mobile{
+    background-color: #f29e33;
+}
+.website{
+    background-color: #d863a1;
+}
+.sales{
+    background-color: #b0c926;
+}
+/* DEFINITO IL LAYOUT DEGLI STATI DEI TASK */
+.deny {
+    font-size: 10px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+}
+.check {
+    font-size: 10px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 2px;
+}
